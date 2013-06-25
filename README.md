@@ -110,7 +110,7 @@ The `publish_to` method will send a post request to the Faye server (using `Net:
 
 ## Serving Faye over HTTPS (with Thin)
 
-To server Faye over HTTPS you could create a thin configuration file `config/private_pub_thin.yml` similar to the following:
+To serve Faye over HTTPS you could create a thin configuration file `config/private_pub_thin.yml` similar to the following:
 
 ```yaml
 ---
